@@ -1,0 +1,27 @@
+#!/bin/sh
+# UtilityLab pre-commit hook：执行仓库策略检查（RULES.md 第 5 节）。
+#
+# 安装：pwsh -NoProfile -File scripts/git/install-hooks.ps1
+#       （原理是把 core.hooksPath 指向 scripts/git/hooks，使 hook 纳入版本控制）
+#
+# 紧急跳过：git commit --no-verify —— 但 CI 仍会拦下同样的问题。
+
+set -e
+
+repo_root=$(git rev-parse --show-toplevel)
+script="$repo_root/scripts/git/check-repository-policy.ps1"
+
+if [ ! -f "$script" ]; then
+    echo "pre-commit: 找不到策略检查脚本 $script" >&2
+    exit 1
+fi
+
+if command -v pwsh >/dev/null 2>&1; then
+    exec pwsh -NoProfile -File "$script"
+elif command -v powershell >/dev/null 2>&1; then
+    exec powershell -NoProfile -ExecutionPolicy Bypass -File "$script"
+else
+    echo "pre-commit: 未找到 pwsh 或 powershell，无法运行策略检查。" >&2
+    echo "请安装 PowerShell，或使用 git commit --no-verify 自行承担风险跳过。" >&2
+    exit 1
+fi

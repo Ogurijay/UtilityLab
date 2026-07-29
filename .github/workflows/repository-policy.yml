@@ -1,0 +1,23 @@
+name: Repository policy
+
+# pre-commit hook 可以被 --no-verify 跳过，也可能压根没安装，
+# 因此这里是真正的闸门（RULES.md 第 5 节）。
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  policy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # 策略脚本校验索引内容，只需当前提交
+          fetch-depth: 1
+
+      - name: Run repository policy check
+        shell: pwsh
+        run: ./scripts/git/check-repository-policy.ps1

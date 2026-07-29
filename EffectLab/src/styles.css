@@ -1,0 +1,401 @@
+:root {
+  --bg: #0a0c11;
+  --panel: #12151c;
+  --panel-2: #171b24;
+  --line: #232936;
+  --text: #d8dde8;
+  --dim: #7b8494;
+  --accent: #ff8a3d;
+  --accent-2: #4fd4ff;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font: 13px/1.5 'Segoe UI', 'Microsoft YaHei', system-ui, sans-serif;
+  overflow: hidden;
+}
+
+.mono {
+  font-family: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+}
+.dim {
+  color: var(--dim);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* ---------- 顶栏 ---------- */
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 14px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--line);
+  flex: 0 0 auto;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.brand .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #ffd166, var(--accent));
+  box-shadow: 0 0 10px rgba(255, 138, 61, 0.7);
+}
+.name-input {
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  color: var(--text);
+  padding: 4px 8px;
+  width: 190px;
+}
+.transport {
+  display: flex;
+  gap: 4px;
+}
+.transport button {
+  width: 30px;
+  height: 26px;
+  font-size: 13px;
+}
+.helper-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--dim);
+  user-select: none;
+}
+.spacer {
+  flex: 1;
+}
+.stats {
+  display: flex;
+  gap: 12px;
+  color: var(--dim);
+  font-size: 11.5px;
+}
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+button {
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  color: var(--text);
+  padding: 4px 10px;
+  cursor: pointer;
+  font: inherit;
+}
+button:hover:not(:disabled) {
+  border-color: #39435a;
+  background: #1d2230;
+}
+button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+button.mini {
+  padding: 2px 7px;
+  font-size: 11.5px;
+}
+button.danger:hover {
+  border-color: #7a3030;
+  color: #ff9a9a;
+}
+
+/* ---------- 布局 ---------- */
+.layout {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 232px minmax(0, 1fr) 320px;
+}
+
+.library,
+.inspector {
+  background: var(--panel);
+  overflow-y: auto;
+  min-height: 0;
+}
+.library {
+  border-right: 1px solid var(--line);
+}
+.inspector {
+  border-left: 1px solid var(--line);
+}
+
+.viewport {
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+  background: var(--bg);
+}
+/* canvas 必须绝对定位并显式给 CSS 尺寸：否则它的布局尺寸等于绘图缓冲尺寸
+   （容器尺寸 × devicePixelRatio），会把容器撑大并触发 ResizeObserver 反馈循环。 */
+.viewport canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+.viewport-error {
+  position: absolute;
+  inset: 24px;
+  padding: 18px;
+  background: #1b1114;
+  border: 1px solid #4a2630;
+  border-radius: 8px;
+}
+
+/* ---------- 左栏 ---------- */
+.panel + .panel {
+  border-top: 1px solid var(--line);
+}
+.panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 11px;
+  font-weight: 600;
+  border-bottom: 1px solid var(--line);
+}
+.panel-body {
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.group-label {
+  color: var(--dim);
+  font-size: 11px;
+  padding: 6px 4px 2px;
+}
+.list-row {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.list-item {
+  flex: 1;
+  text-align: left;
+  background: transparent;
+  border: 1px solid transparent;
+  padding: 5px 8px;
+  border-radius: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list-item.static {
+  cursor: default;
+  color: var(--text);
+}
+.list-item:hover {
+  background: var(--panel-2);
+}
+.empty {
+  color: var(--dim);
+  font-size: 11.5px;
+  margin: 6px 4px;
+  line-height: 1.6;
+}
+
+/* ---------- 检查器 ---------- */
+.section {
+  border-bottom: 1px solid var(--line);
+}
+.section-head {
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 11px;
+  font-weight: 600;
+}
+.section-head:hover {
+  background: var(--panel-2);
+}
+.chev {
+  display: inline-block;
+  width: 14px;
+  color: var(--dim);
+}
+.section-body {
+  padding: 4px 11px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ctrl {
+  display: grid;
+  grid-template-columns: 92px 1fr 52px;
+  align-items: center;
+  gap: 7px;
+}
+.ctrl-label {
+  color: var(--dim);
+  font-size: 11.5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ctrl-range {
+  width: 100%;
+  accent-color: var(--accent);
+  height: 16px;
+}
+.ctrl-num,
+.ctrl-select,
+.vec3-inputs input {
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--text);
+  padding: 3px 5px;
+  width: 100%;
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 11.5px;
+}
+.ctrl-select {
+  grid-column: 2 / 4;
+  font-family: inherit;
+}
+.ctrl-num.wide {
+  grid-column: 2 / 4;
+  width: 100%;
+}
+.ctrl.toggle {
+  grid-template-columns: 92px 1fr;
+}
+.ctrl.toggle input {
+  justify-self: start;
+  accent-color: var(--accent);
+}
+.ctrl.vec3 {
+  grid-template-columns: 92px 1fr;
+}
+.vec3-inputs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+/* ---------- 曲线 / 渐变 ---------- */
+.curve,
+.gradient {
+  margin: 6px 0 2px;
+}
+.curve-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 11.5px;
+  margin-bottom: 3px;
+}
+.curve-hint {
+  color: var(--dim);
+  font-size: 10px;
+}
+.curve-svg {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  touch-action: none;
+}
+.curve-bg {
+  fill: #0d1017;
+  stroke: var(--line);
+}
+.curve-grid {
+  stroke: #1c2130;
+  stroke-width: 1;
+}
+.curve-pt {
+  fill: #0d1017;
+  stroke-width: 1.8;
+  cursor: grab;
+}
+.curve-pt:hover,
+.curve-pt.active {
+  fill: #fff;
+}
+
+.gradient-bar {
+  position: relative;
+  height: 22px;
+  border-radius: 5px;
+  border: 1px solid var(--line);
+  touch-action: none;
+}
+.gradient-stop {
+  position: absolute;
+  top: -3px;
+  width: 11px;
+  height: 28px;
+  margin-left: -5.5px;
+  border: 1.5px solid #0d1017;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px #7b8494;
+  cursor: grab;
+}
+.gradient-stop.active {
+  box-shadow: 0 0 0 1.5px #fff;
+}
+.gradient-edit {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 7px;
+  font-size: 11.5px;
+}
+.gradient-edit input[type='color'] {
+  width: 34px;
+  height: 22px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: transparent;
+}
+
+/* ---------- 提示 ---------- */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 26px;
+  transform: translateX(-50%);
+  background: #1b2130;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 8px 16px;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.5);
+}

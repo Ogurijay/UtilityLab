@@ -1,3 +1,56 @@
 * text=auto
-*.ps1 text eol=crlf
-*.md text eol=lf
+
+# --- 行尾：Windows 原生脚本用 CRLF ------------------------------------------
+*.ps1  text eol=crlf
+*.psm1 text eol=crlf
+*.psd1 text eol=crlf
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+
+# --- 行尾：其余源码、配置与文档统一 LF --------------------------------------
+*.md   text eol=lf
+*.sh   text eol=lf
+*.py   text eol=lf
+*.js   text eol=lf
+*.ts   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.ini  text eol=lf
+*.cfg  text eol=lf
+*.txt  text eol=lf
+*.csv  text eol=lf
+*.html text eol=lf
+*.css  text eol=lf
+*.c    text eol=lf
+*.h    text eol=lf
+*.cpp  text eol=lf
+*.hpp  text eol=lf
+
+.gitattributes text eol=lf
+.gitignore     text eol=lf
+.policy-allow  text eol=lf
+LICENSE        text eol=lf
+
+# Git hooks 由 sh 执行：CRLF 会导致 "bad interpreter"
+scripts/git/hooks/** text eol=lf
+
+# --- 二进制：仅在经审核豁免后才会入库，声明以避免被当作文本处理 -------------
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.gz   binary
+*.7z   binary
+*.ttf  binary
+*.otf  binary
+*.woff binary
+*.woff2 binary
+*.bin  binary
+*.glb  binary
+*.fbx  binary

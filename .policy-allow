@@ -1,0 +1,26 @@
+# UtilityLab 策略豁免清单
+#
+# 由 scripts/git/check-repository-policy.ps1 读取。每登记一条豁免，都相当于
+# 执行 RULES.md 第 2 节要求的"人工审核"，因此必须在注释里写明：
+#   来源、许可证、为什么必需。
+#
+# 语法
+#   <glob>                  豁免该路径的全部可豁免规则
+#   <glob> = rule1,rule2    仅豁免指定规则
+#
+# 可豁免规则
+#   asset            数字创意资产 / 归档扩展名
+#   secret-name      疑似凭据的文件名
+#   secret-content   文本中的明文凭据特征
+#   force-added      被 .gitignore 排除却仍被追踪
+#
+# 不可豁免
+#   size             单文件 50 MB 上限（RULES.md 第 2 节明确"仍然适用"）
+#
+# glob 说明：* 不跨目录，** 跨目录，以 / 结尾表示该目录下全部内容。
+#
+# 示例（当前未启用，仅作格式参考）
+#   MyTool/tests/fixtures/  = asset, force-added   # 单元测试基准图，本仓库自制，MIT
+#   MyTool/tests/fake_keys.py = secret-content     # 故意写入的假密钥，用于测试检测逻辑
+
+# 暂无生效条目。
