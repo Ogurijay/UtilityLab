@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "description": "按资产 ID 覆盖自动分类、槽位、授权或兼容性判断。自动生成清单时保留本文件。",
+  "items": {}
+}

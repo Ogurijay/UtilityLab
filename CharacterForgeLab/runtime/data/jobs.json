@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "updated": "2026-07-30T17:34:05.089291+00:00",
+  "items": [
+    {
+      "id": "job_efb9d1f2676c4c",
+      "type": "blender_auto_rig",
+      "status": "failed",
+      "progress": 100,
+      "payload": {
+        "name": "MaleSculptedBody",
+        "profile_id": "ue5-mannequin-simple",
+        "source_pose": "t",
+        "baseline_asset_id": "asset_0e94ed1a6dee4c7c",
+        "source_asset_id": "asset_ms7qv490_3",
+        "input_bytes": 262266320,
+        "input": "/CharacterStudio/jobs/job_efb9d1f2676c4c/input.glb"
+      },
+      "result": null,
+      "error": "Blender 自动蒙皮超过 45 分钟；浏览器预览未被覆盖",
+      "created": "2026-07-30T16:48:59.184549+00:00",
+      "updated": "2026-07-30T17:34:05.089279+00:00",
+      "recovered": false
+    }
+  ]
+}

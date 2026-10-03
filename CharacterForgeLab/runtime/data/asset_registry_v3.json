@@ -1,0 +1,19 @@
+{
+  "schema_version": 3,
+  "built": "2026-07-28T14:47:15.652Z",
+  "source_schema": 2,
+  "source_manifest": "CharacterStudio/data/asset_manifest_v2.json",
+  "migration": {
+    "mode": "clean_slate",
+    "original_overwritten": false,
+    "notes": [
+      "非 Digimon/Gundam 资产记录已按用户要求永久移除"
+    ]
+  },
+  "summary": {
+    "total": 0,
+    "state_counts": {},
+    "class_counts": {}
+  },
+  "items": []
+}

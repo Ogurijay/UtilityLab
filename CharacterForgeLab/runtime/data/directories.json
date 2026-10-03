@@ -1,0 +1,116 @@
+{
+    "schema_version":  1,
+    "updated":  "2026-07-29T09:32:55.9298207+00:00",
+    "items":  [
+                  {
+                      "id":  "dir-hub-character-studio-root",
+                      "project_id":  "hub-character-studio",
+                      "parent_id":  null,
+                      "name":  "CharacterForgeLab",
+                      "kind":  "project_root",
+                      "sort":  0,
+                      "created":  "2026-07-28T10:00:51.220447+00:00",
+                      "updated":  "2026-07-28T10:00:51.220448+00:00"
+                  },
+                  {
+                      "id":  "dir-character-system-baselines",
+                      "project_id":  "hub-character-studio",
+                      "parent_id":  "dir-hub-character-studio-root",
+                      "name":  "系统基准角色",
+                      "kind":  "system",
+                      "sort":  10,
+                      "created":  "2026-07-28T10:00:51.220451+00:00",
+                      "updated":  "2026-07-28T10:00:51.220452+00:00"
+                  },
+                  {
+                      "id":  "dir-character-characters",
+                      "project_id":  "hub-character-studio",
+                      "parent_id":  "dir-hub-character-studio-root",
+                      "name":  "人物",
+                      "kind":  "character",
+                      "sort":  11,
+                      "created":  "2026-07-28T10:00:51.220454+00:00",
+                      "updated":  "2026-07-28T10:00:51.220455+00:00"
+                  },
+                  {
+                      "id":  "dir-character-body-parts",
+                      "project_id":  "hub-character-studio",
+                      "parent_id":  "dir-hub-character-studio-root",
+                      "name":  "身体部件",
+                      "kind":  "body_part",
+                      "sort":  12,
+                      "created":  "2026-07-28T10:00:51.220456+00:00",
+                      "updated":  "2026-07-28T10:00:51.220457+00:00"
+                  },
+                  {
+                      "id":  "dir-character-wearables",
+                      "project_id":  "hub-character-studio",
+                      "parent_id":  "dir-hub-character-studio-root",
+                      "name":  "服装",
+                      "kind":  "wearable",
+                      "sort":  13,
+                      "created":  "2026-07-28T10:00:51.220459+00:00",
+                      "updated":  "2026-07-28T15:11:32.061649+00:00"
+                  },
+                  {
+                      "id":  "dir-character-weapons",
+                      "project_id":  "hub-character-studio",
+                      "parent_id":  "dir-hub-character-studio-root",
+                      "name":  "武器",
+                      "kind":  "weapon",
+                      "sort":  14,
+                      "created":  "2026-07-28T10:00:51.220460+00:00",
+                      "updated":  "2026-07-28T10:00:51.220461+00:00"
+                  },
+                  {
+                      "id":  "dir-character-props",
+                      "project_id":  "hub-character-studio",
+                      "parent_id":  "dir-hub-character-studio-root",
+                      "name":  "道具",
+                      "kind":  "prop",
+                      "sort":  15,
+                      "created":  "2026-07-28T10:00:51.220462+00:00",
+                      "updated":  "2026-07-28T10:00:51.220464+00:00"
+                  },
+                  {
+                      "id":  "dir-character-scenes",
+                      "project_id":  "hub-character-studio",
+                      "parent_id":  "dir-hub-character-studio-root",
+                      "name":  "场景",
+                      "kind":  "scene",
+                      "sort":  16,
+                      "created":  "2026-07-28T10:00:51.220465+00:00",
+                      "updated":  "2026-07-28T10:00:51.220466+00:00"
+                  },
+                  {
+                      "id":  "dir-character-animations",
+                      "project_id":  "hub-character-studio",
+                      "parent_id":  "dir-hub-character-studio-root",
+                      "name":  "动画",
+                      "kind":  "animation",
+                      "sort":  45,
+                      "created":  "2026-07-28T15:48:58.781778+00:00",
+                      "updated":  "2026-07-28T15:48:58.781781+00:00"
+                  },
+                  {
+                      "id":  "dir-character-derived",
+                      "project_id":  "hub-character-studio",
+                      "parent_id":  "dir-hub-character-studio-root",
+                      "name":  "派生资产",
+                      "kind":  "derived",
+                      "sort":  46,
+                      "created":  "2026-07-28T18:59:37.898161+00:00",
+                      "updated":  "2026-07-28T18:59:37.898164+00:00"
+                  },
+                  {
+                      "id":  "dir-character-imports",
+                      "project_id":  "hub-character-studio",
+                      "parent_id":  "dir-hub-character-studio-root",
+                      "name":  "导入暂存",
+                      "kind":  "staging",
+                      "sort":  47,
+                      "created":  "2026-07-28T18:59:37.915061+00:00",
+                      "updated":  "2026-07-28T18:59:37.915074+00:00"
+                  }
+              ]
+}

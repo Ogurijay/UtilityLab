@@ -24,7 +24,7 @@ UtilityLab/
 ## 当前项目
 
 - [EffectLab](EffectLab/README.md)：浏览器端程序化特效编辑器。
-- [CharacterLab](CharacterLab/README.md)：浏览器端三维角色装配、骨骼与动画工作台。
+- [CharacterForgeLab](CharacterForgeLab/README.md)：融合人物装配、骨骼动画与单物体建模的三维工作台。
 
 ## 开始工作
 

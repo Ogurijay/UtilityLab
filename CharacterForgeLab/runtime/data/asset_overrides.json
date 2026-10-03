@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "updated": "2026-07-29T04:18:54.670841Z",
+  "items": [
+    {
+      "asset_id": "asset_e3d3c6ebf66e4c85",
+      "display_name": "杀戮都市-男战斗服",
+      "updated": "2026-07-28T15:11:15.379453+00:00"
+    },
+    {
+      "asset_id": "asset_70f0e43bd98d4c8a",
+      "display_name": "Manny 男性基础行走",
+      "updated": "2026-07-29T04:18:54.670841Z"
+    },
+    {
+      "asset_id": "asset_09b8fd7ac08a4f35",
+      "display_name": "Manny 男性基础跑步",
+      "updated": "2026-07-29T04:18:54.670841Z"
+    },
+    {
+      "asset_id": "asset_1212e82563e04664",
+      "display_name": "Manny 男性基础跳跃",
+      "updated": "2026-07-29T04:18:54.670841Z"
+    },
+    {
+      "asset_id": "asset_895e88820d5e4657",
+      "display_name": "UEFN 基础行走",
+      "updated": "2026-07-28T15:49:34.892139+00:00"
+    },
+    {
+      "asset_id": "asset_cf23c8c1c2d04c84",
+      "display_name": "UEFN 基础跑步",
+      "updated": "2026-07-28T15:49:35.244166+00:00"
+    },
+    {
+      "asset_id": "asset_ab48e05a43d9468c",
+      "display_name": "UEFN 基础跳跃",
+      "updated": "2026-07-28T15:49:35.617870+00:00"
+    }
+  ]
+}

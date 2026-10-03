@@ -31,7 +31,7 @@ npm run dev        # 开发服务器，默认 http://localhost:8618
 npm run build      # 类型检查 + 生产构建（输出 dist/）
 ```
 
-> 端口在 `vite.config.ts` 里改。8617 已被 CharacterLab 占用，
+> 端口在 `vite.config.ts` 里改。8617 已被 CharacterForgeLab 占用，
 > 本机 5173 处于 Windows 保留端口段，故用 8618。
 
 需要浏览器支持 **WebGL2 + `EXT_color_buffer_float`**（浮点渲染目标）。

@@ -1,0 +1,1190 @@
+{
+  "schema_version": 3,
+  "updated": "2026-07-29T04:18:54.670841Z",
+  "items": [
+    {
+      "schema_version": 3,
+      "id": "asset_e3d3c6ebf66e4c85",
+      "name": "base_basic_shaded",
+      "display_name": "base_basic_shaded",
+      "asset_class": "wearable",
+      "subtype": "local_import",
+      "body_slot": "full_body",
+      "attachment_mode": "skinned_mesh",
+      "project_id": "hub-character-studio",
+      "directory_id": "dir-character-wearables",
+      "tags": [
+        "本地导入",
+        "wearable"
+      ],
+      "source": {
+        "kind": "managed",
+        "format": "FBX",
+        "original_path": null,
+        "managed_path": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-wearables\\asset_e3d3c6ebf66e4c85\\base_basic_shaded.fbx",
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-wearables/asset_e3d3c6ebf66e4c85/base_basic_shaded.fbx",
+        "size_bytes": 31766572,
+        "sha256": "17fda09265e5880129b1968868f38147e36daf584f51ee727ba360a249f01dce",
+        "hash_state": "verified",
+        "managed": true,
+        "read_only": false
+      },
+      "preview": {
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-wearables/asset_e3d3c6ebf66e4c85/base_basic_shaded.fbx",
+        "thumbnail": null,
+        "strategy": "browser_loader",
+        "browser_ready": true,
+        "requires_confirmation": false,
+        "reason": null
+      },
+      "skeleton": {
+        "profile_id": null,
+        "signature": null,
+        "rest_pose_signature": null,
+        "bone_count": null,
+        "has_skin": null
+      },
+      "animations": [],
+      "animation_count": 0,
+      "capabilities": {
+        "can_preview": true,
+        "has_skin": null,
+        "has_morph_targets": null,
+        "has_animation": null,
+        "can_export_glb": true,
+        "binding_modes": [
+          "free_transform",
+          "rigid_attachment",
+          "shared_skeleton",
+          "retargeted_skeleton"
+        ]
+      },
+      "technical": {},
+      "provenance": {
+        "source": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-wearables\\asset_e3d3c6ebf66e4c85\\base_basic_shaded.fbx",
+        "license_note": null,
+        "license_status": "unknown",
+        "commercial_use": "unknown"
+      },
+      "quality": {
+        "available": true,
+        "issues": [
+          "license_unverified",
+          "browser_inspection_pending"
+        ]
+      },
+      "availability": {
+        "state": "ready",
+        "reason": null,
+        "last_checked": "2026-07-28T15:01:29.136124+00:00"
+      },
+      "dependencies": [],
+      "legacy": null,
+      "created": "2026-07-28T15:01:29.136132+00:00",
+      "updated": "2026-07-28T15:01:29.136133+00:00"
+    },
+    {
+      "schema_version": 3,
+      "id": "asset_167167ca63af4e35",
+      "name": "SKM_UEFN_Mannequin",
+      "display_name": "UEFN Mannequin（系统基准）",
+      "asset_class": "character",
+      "subtype": "system_baseline",
+      "body_slot": "root",
+      "attachment_mode": "shared_skeleton",
+      "project_id": "hub-character-studio",
+      "directory_id": "dir-character-system-baselines",
+      "tags": [
+        "system-baseline",
+        "UEFN",
+        "Mannequin"
+      ],
+      "source": {
+        "kind": "managed",
+        "format": "GLB",
+        "original_path": null,
+        "managed_path": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-system-baselines\\asset_167167ca63af4e35\\SKM_UEFN_Mannequin.glb",
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-system-baselines/asset_167167ca63af4e35/SKM_UEFN_Mannequin.glb",
+        "size_bytes": 4321028,
+        "sha256": "14d5a137e119b101b5a1d4453b0d8b13bd873cc79c229e2c22c40df15068d8ac",
+        "hash_state": "verified",
+        "managed": true,
+        "read_only": true
+      },
+      "preview": {
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-system-baselines/asset_167167ca63af4e35/SKM_UEFN_Mannequin.glb",
+        "thumbnail": null,
+        "strategy": "direct",
+        "browser_ready": true,
+        "requires_confirmation": false,
+        "reason": null
+      },
+      "skeleton": {
+        "profile_id": "uefn-mannequin",
+        "signature": "profile:uefn-mannequin",
+        "rest_pose_signature": "fnv1a32:da44924a",
+        "bone_count": 88,
+        "has_skin": true
+      },
+      "animations": [
+        {
+          "id": "asset_895e88820d5e4657",
+          "name": "UEFN 基础行走",
+          "file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_895e88820d5e4657/uefn_walk.glb",
+          "source_asset_id": "asset_895e88820d5e4657",
+          "skeleton_profile_id": "uefn-mannequin",
+          "action": "walk",
+          "segment": "loop",
+          "loop": true
+        },
+        {
+          "id": "asset_cf23c8c1c2d04c84",
+          "name": "UEFN 基础跑步",
+          "file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_cf23c8c1c2d04c84/uefn_run.glb",
+          "source_asset_id": "asset_cf23c8c1c2d04c84",
+          "skeleton_profile_id": "uefn-mannequin",
+          "action": "run",
+          "segment": "loop",
+          "loop": true
+        },
+        {
+          "id": "asset_ab48e05a43d9468c",
+          "name": "UEFN 基础跳跃",
+          "file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_ab48e05a43d9468c/uefn_jump.glb",
+          "source_asset_id": "asset_ab48e05a43d9468c",
+          "skeleton_profile_id": "uefn-mannequin",
+          "action": "jump",
+          "segment": "air_loop",
+          "loop": true
+        }
+      ],
+      "animation_count": 3,
+      "capabilities": {
+        "can_preview": true,
+        "has_skin": true,
+        "has_morph_targets": false,
+        "has_animation": false,
+        "can_export_glb": true,
+        "binding_modes": [
+          "free_transform",
+          "rigid_attachment",
+          "shared_skeleton",
+          "retargeted_skeleton",
+          "default_skeleton_replacement"
+        ],
+        "has_skeletal_animation": true,
+        "default_animation_count": 3
+      },
+      "technical": {
+        "system_baseline": true,
+        "export_source_asset": "E:\\XHub\\Riftfall\\_Bak\\Riftfall_Game-20260727\\Content\\Characters\\UEFN_Mannequin\\Meshes\\SKM_UEFN_Mannequin.uasset",
+        "export_tool": "Unreal Engine 5.8 GLTFExporter",
+        "browser_validation": {
+          "three_revision": "185",
+          "skinned_mesh": true,
+          "bone_count": 88
+        }
+      },
+      "provenance": {
+        "source": "E:\\XHub\\Riftfall\\_Bak\\Riftfall_Game-20260727\\Content\\Characters\\UEFN_Mannequin\\Meshes\\SKM_UEFN_Mannequin.uasset",
+        "license_note": "Epic Games engine/template content; use subject to the applicable Unreal Engine license.",
+        "license_status": "engine_content",
+        "commercial_use": "unknown"
+      },
+      "quality": {
+        "available": true,
+        "issues": []
+      },
+      "availability": {
+        "state": "ready",
+        "reason": null,
+        "last_checked": "2026-07-28T15:27:05.535201+00:00"
+      },
+      "dependencies": [],
+      "legacy": null,
+      "created": "2026-07-28T15:27:05.535210+00:00",
+      "updated": "2026-07-28T15:50:22.362161+00:00"
+    },
+    {
+      "schema_version": 3,
+      "id": "asset_0e94ed1a6dee4c7c",
+      "name": "SKM_Manny_Simple",
+      "display_name": "UE5 Manny Simple（系统基准）",
+      "asset_class": "character",
+      "subtype": "system_baseline",
+      "body_slot": "root",
+      "attachment_mode": "shared_skeleton",
+      "project_id": "hub-character-studio",
+      "directory_id": "dir-character-system-baselines",
+      "tags": [
+        "system-baseline",
+        "UE5",
+        "Manny",
+        "Simple"
+      ],
+      "source": {
+        "kind": "managed",
+        "format": "GLB",
+        "original_path": null,
+        "managed_path": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-system-baselines\\asset_0e94ed1a6dee4c7c\\SKM_Manny_Simple.glb",
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-system-baselines/asset_0e94ed1a6dee4c7c/SKM_Manny_Simple.glb",
+        "size_bytes": 10494032,
+        "sha256": "315b05cc6ebd98d0d2865365ee794029225b43b66cbc26114ad47cfb3f441fd9",
+        "hash_state": "verified",
+        "managed": true,
+        "read_only": true
+      },
+      "preview": {
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-system-baselines/asset_0e94ed1a6dee4c7c/SKM_Manny_Simple.glb",
+        "thumbnail": null,
+        "strategy": "direct",
+        "browser_ready": true,
+        "requires_confirmation": false,
+        "reason": null
+      },
+      "skeleton": {
+        "profile_id": "ue5-mannequin-simple",
+        "signature": "profile:ue5-mannequin-simple",
+        "rest_pose_signature": "fnv1a32:65677a9e",
+        "bone_count": 89,
+        "has_skin": true
+      },
+      "animations": [
+        {
+          "id": "asset_70f0e43bd98d4c8a",
+          "name": "Manny 男性基础行走",
+          "file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_70f0e43bd98d4c8a/manny_walk.glb",
+          "source_asset_id": "asset_70f0e43bd98d4c8a",
+          "skeleton_profile_id": "ue5-mannequin-simple",
+          "action": "walk",
+          "segment": "loop",
+          "loop": true,
+          "source_asset": "/Game/Riftfall/Animations/Locomotion/GASP/Baseline/DatabaseAnimations/GASPM_M_Neutral_Walk_Loop_F",
+          "gender_style": "male_neutral"
+        },
+        {
+          "id": "asset_09b8fd7ac08a4f35",
+          "name": "Manny 男性基础跑步",
+          "file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_09b8fd7ac08a4f35/manny_run.glb",
+          "source_asset_id": "asset_09b8fd7ac08a4f35",
+          "skeleton_profile_id": "ue5-mannequin-simple",
+          "action": "run",
+          "segment": "loop",
+          "loop": true,
+          "source_asset": "/Game/Riftfall/Animations/Locomotion/GASP/Baseline/DatabaseAnimations/GASPM_M_Neutral_Run_Loop_F",
+          "gender_style": "male_neutral"
+        },
+        {
+          "id": "asset_1212e82563e04664",
+          "name": "Manny 男性基础跳跃",
+          "file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_1212e82563e04664/manny_jump.glb",
+          "source_asset_id": "asset_1212e82563e04664",
+          "skeleton_profile_id": "ue5-mannequin-simple",
+          "action": "jump",
+          "segment": "start",
+          "loop": false,
+          "source_asset": "/Game/Riftfall/Animations/Locomotion/GASP/Baseline/DatabaseAnimations/GASPM_M_Neutral_Jump_F_Start_Stand_Lfoot",
+          "gender_style": "male_neutral"
+        }
+      ],
+      "animation_count": 3,
+      "capabilities": {
+        "can_preview": true,
+        "has_skin": true,
+        "has_morph_targets": false,
+        "has_animation": false,
+        "can_export_glb": true,
+        "binding_modes": [
+          "free_transform",
+          "rigid_attachment",
+          "shared_skeleton",
+          "retargeted_skeleton",
+          "default_skeleton_replacement"
+        ],
+        "has_skeletal_animation": true,
+        "default_animation_count": 3
+      },
+      "technical": {
+        "system_baseline": true,
+        "export_source_asset": "E:\\EpicGames\\UE_5.8\\Templates\\TemplateResources\\High\\Characters\\Content\\Mannequins\\Meshes\\SKM_Manny_Simple.uasset",
+        "export_tool": "Unreal Engine 5.8 GLTFExporter",
+        "browser_validation": {
+          "three_revision": "185",
+          "skinned_mesh": true,
+          "bone_count": 89
+        }
+      },
+      "provenance": {
+        "source": "E:\\EpicGames\\UE_5.8\\Templates\\TemplateResources\\High\\Characters\\Content\\Mannequins\\Meshes\\SKM_Manny_Simple.uasset",
+        "license_note": "Epic Games engine/template content; use subject to the applicable Unreal Engine license.",
+        "license_status": "engine_content",
+        "commercial_use": "unknown"
+      },
+      "quality": {
+        "available": true,
+        "issues": []
+      },
+      "availability": {
+        "state": "ready",
+        "reason": null,
+        "last_checked": "2026-07-28T15:27:10.144147+00:00"
+      },
+      "dependencies": [],
+      "legacy": null,
+      "created": "2026-07-28T15:27:10.144154+00:00",
+      "updated": "2026-07-29T04:18:54.670841Z"
+    },
+    {
+      "schema_version": 3,
+      "id": "asset_70f0e43bd98d4c8a",
+      "name": "Manny 男性基础行走",
+      "display_name": "Manny 男性基础行走",
+      "asset_class": "animation",
+      "subtype": "skeletal_animation",
+      "body_slot": "full_body",
+      "attachment_mode": "animation_source",
+      "project_id": "hub-character-studio",
+      "directory_id": "dir-character-animations",
+      "tags": [
+        "GASP",
+        "M_Neutral",
+        "ue5-mannequin-simple",
+        "walk",
+        "男性动作",
+        "骨骼动画",
+        "默认动画"
+      ],
+      "source": {
+        "kind": "managed",
+        "format": "GLB",
+        "original_path": null,
+        "managed_path": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-animations\\asset_70f0e43bd98d4c8a\\manny_walk.glb",
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_70f0e43bd98d4c8a/manny_walk.glb",
+        "size_bytes": 4176716,
+        "sha256": "104e579e8fa80f33484ac41977b12899520d6bd493718bf2e7b8aed2a0fa7a9e",
+        "hash_state": "verified",
+        "managed": true,
+        "read_only": false
+      },
+      "preview": {
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_70f0e43bd98d4c8a/manny_walk.glb",
+        "thumbnail": null,
+        "strategy": "direct",
+        "browser_ready": true,
+        "requires_confirmation": false,
+        "reason": null
+      },
+      "skeleton": {
+        "profile_id": "ue5-mannequin-simple",
+        "signature": null,
+        "rest_pose_signature": null,
+        "bone_count": null,
+        "has_skin": true
+      },
+      "animations": [
+        {
+          "name": "Manny 男性基础行走",
+          "clip_index": 0,
+          "action": "walk",
+          "segment": "loop",
+          "loop": true,
+          "gender_style": "male_neutral"
+        }
+      ],
+      "animation_count": 1,
+      "capabilities": {
+        "can_preview": true,
+        "has_skin": true,
+        "has_morph_targets": null,
+        "has_animation": null,
+        "can_export_glb": true,
+        "binding_modes": [
+          "free_transform",
+          "rigid_attachment",
+          "shared_skeleton",
+          "retargeted_skeleton"
+        ],
+        "has_skeletal_animation": true,
+        "animation_source": true
+      },
+      "technical": {
+        "source_animation_asset": "/Game/Riftfall/Animations/Locomotion/GASP/Baseline/DatabaseAnimations/GASPM_M_Neutral_Walk_Loop_F",
+        "gender_style": "male_neutral",
+        "skeleton_joints": 89,
+        "animation_channels": 267
+      },
+      "provenance": {
+        "source": "/Game/Riftfall/Animations/Locomotion/GASP/Baseline/DatabaseAnimations/GASPM_M_Neutral_Walk_Loop_F",
+        "license_note": null,
+        "license_status": "unknown",
+        "commercial_use": "unknown",
+        "source_project": "E:\\XHub\\Riftfall\\Riftfall_Game\\Riftfall.uproject",
+        "exporter": "Unreal GLTFExporter 5.8",
+        "source_modified": false,
+        "usage_scope": "local_project"
+      },
+      "quality": {
+        "available": true,
+        "issues": [
+          "license_unverified",
+          "browser_inspection_pending"
+        ]
+      },
+      "availability": {
+        "state": "ready",
+        "reason": null,
+        "last_checked": "2026-07-28T15:49:31.105816+00:00"
+      },
+      "dependencies": [],
+      "legacy": null,
+      "created": "2026-07-28T15:49:31.105823+00:00",
+      "updated": "2026-07-29T04:18:54.670841Z"
+    },
+    {
+      "schema_version": 3,
+      "id": "asset_09b8fd7ac08a4f35",
+      "name": "Manny 男性基础跑步",
+      "display_name": "Manny 男性基础跑步",
+      "asset_class": "animation",
+      "subtype": "skeletal_animation",
+      "body_slot": "full_body",
+      "attachment_mode": "animation_source",
+      "project_id": "hub-character-studio",
+      "directory_id": "dir-character-animations",
+      "tags": [
+        "GASP",
+        "M_Neutral",
+        "run",
+        "ue5-mannequin-simple",
+        "男性动作",
+        "骨骼动画",
+        "默认动画"
+      ],
+      "source": {
+        "kind": "managed",
+        "format": "GLB",
+        "original_path": null,
+        "managed_path": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-animations\\asset_09b8fd7ac08a4f35\\manny_run.glb",
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_09b8fd7ac08a4f35/manny_run.glb",
+        "size_bytes": 4015852,
+        "sha256": "342740d4386411f9ed666c02b8e8da30f77a0d58ea118a6703cc919d39f1dfec",
+        "hash_state": "verified",
+        "managed": true,
+        "read_only": false
+      },
+      "preview": {
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_09b8fd7ac08a4f35/manny_run.glb",
+        "thumbnail": null,
+        "strategy": "direct",
+        "browser_ready": true,
+        "requires_confirmation": false,
+        "reason": null
+      },
+      "skeleton": {
+        "profile_id": "ue5-mannequin-simple",
+        "signature": null,
+        "rest_pose_signature": null,
+        "bone_count": null,
+        "has_skin": true
+      },
+      "animations": [
+        {
+          "name": "Manny 男性基础跑步",
+          "clip_index": 0,
+          "action": "run",
+          "segment": "loop",
+          "loop": true,
+          "gender_style": "male_neutral"
+        }
+      ],
+      "animation_count": 1,
+      "capabilities": {
+        "can_preview": true,
+        "has_skin": true,
+        "has_morph_targets": null,
+        "has_animation": null,
+        "can_export_glb": true,
+        "binding_modes": [
+          "free_transform",
+          "rigid_attachment",
+          "shared_skeleton",
+          "retargeted_skeleton"
+        ],
+        "has_skeletal_animation": true,
+        "animation_source": true
+      },
+      "technical": {
+        "source_animation_asset": "/Game/Riftfall/Animations/Locomotion/GASP/Baseline/DatabaseAnimations/GASPM_M_Neutral_Run_Loop_F",
+        "gender_style": "male_neutral",
+        "skeleton_joints": 89,
+        "animation_channels": 267
+      },
+      "provenance": {
+        "source": "/Game/Riftfall/Animations/Locomotion/GASP/Baseline/DatabaseAnimations/GASPM_M_Neutral_Run_Loop_F",
+        "license_note": null,
+        "license_status": "unknown",
+        "commercial_use": "unknown",
+        "source_project": "E:\\XHub\\Riftfall\\Riftfall_Game\\Riftfall.uproject",
+        "exporter": "Unreal GLTFExporter 5.8",
+        "source_modified": false,
+        "usage_scope": "local_project"
+      },
+      "quality": {
+        "available": true,
+        "issues": [
+          "license_unverified",
+          "browser_inspection_pending"
+        ]
+      },
+      "availability": {
+        "state": "ready",
+        "reason": null,
+        "last_checked": "2026-07-28T15:49:32.870104+00:00"
+      },
+      "dependencies": [],
+      "legacy": null,
+      "created": "2026-07-28T15:49:32.870111+00:00",
+      "updated": "2026-07-29T04:18:54.670841Z"
+    },
+    {
+      "schema_version": 3,
+      "id": "asset_1212e82563e04664",
+      "name": "Manny 男性基础跳跃",
+      "display_name": "Manny 男性基础跳跃",
+      "asset_class": "animation",
+      "subtype": "skeletal_animation",
+      "body_slot": "full_body",
+      "attachment_mode": "animation_source",
+      "project_id": "hub-character-studio",
+      "directory_id": "dir-character-animations",
+      "tags": [
+        "GASP",
+        "M_Neutral",
+        "jump",
+        "ue5-mannequin-simple",
+        "男性动作",
+        "骨骼动画",
+        "默认动画"
+      ],
+      "source": {
+        "kind": "managed",
+        "format": "GLB",
+        "original_path": null,
+        "managed_path": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-animations\\asset_1212e82563e04664\\manny_jump.glb",
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_1212e82563e04664/manny_jump.glb",
+        "size_bytes": 4015868,
+        "sha256": "8b3aabaee1d9a9e89ad2f237447fa1e280f18200269ac84ee84e829d5b867b8f",
+        "hash_state": "verified",
+        "managed": true,
+        "read_only": false
+      },
+      "preview": {
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_1212e82563e04664/manny_jump.glb",
+        "thumbnail": null,
+        "strategy": "direct",
+        "browser_ready": true,
+        "requires_confirmation": false,
+        "reason": null
+      },
+      "skeleton": {
+        "profile_id": "ue5-mannequin-simple",
+        "signature": null,
+        "rest_pose_signature": null,
+        "bone_count": null,
+        "has_skin": true
+      },
+      "animations": [
+        {
+          "name": "Manny 男性基础跳跃",
+          "clip_index": 0,
+          "action": "jump",
+          "segment": "start",
+          "loop": false,
+          "gender_style": "male_neutral"
+        }
+      ],
+      "animation_count": 1,
+      "capabilities": {
+        "can_preview": true,
+        "has_skin": true,
+        "has_morph_targets": null,
+        "has_animation": null,
+        "can_export_glb": true,
+        "binding_modes": [
+          "free_transform",
+          "rigid_attachment",
+          "shared_skeleton",
+          "retargeted_skeleton"
+        ],
+        "has_skeletal_animation": true,
+        "animation_source": true
+      },
+      "technical": {
+        "source_animation_asset": "/Game/Riftfall/Animations/Locomotion/GASP/Baseline/DatabaseAnimations/GASPM_M_Neutral_Jump_F_Start_Stand_Lfoot",
+        "gender_style": "male_neutral",
+        "skeleton_joints": 89,
+        "animation_channels": 267
+      },
+      "provenance": {
+        "source": "/Game/Riftfall/Animations/Locomotion/GASP/Baseline/DatabaseAnimations/GASPM_M_Neutral_Jump_F_Start_Stand_Lfoot",
+        "license_note": null,
+        "license_status": "unknown",
+        "commercial_use": "unknown",
+        "source_project": "E:\\XHub\\Riftfall\\Riftfall_Game\\Riftfall.uproject",
+        "exporter": "Unreal GLTFExporter 5.8",
+        "source_modified": false,
+        "usage_scope": "local_project"
+      },
+      "quality": {
+        "available": true,
+        "issues": [
+          "license_unverified",
+          "browser_inspection_pending"
+        ]
+      },
+      "availability": {
+        "state": "ready",
+        "reason": null,
+        "last_checked": "2026-07-28T15:49:34.480413+00:00"
+      },
+      "dependencies": [],
+      "legacy": null,
+      "created": "2026-07-28T15:49:34.480421+00:00",
+      "updated": "2026-07-29T04:18:54.670841Z"
+    },
+    {
+      "schema_version": 3,
+      "id": "asset_895e88820d5e4657",
+      "name": "uefn_walk",
+      "display_name": "UEFN 基础行走",
+      "asset_class": "animation",
+      "subtype": "skeletal_animation",
+      "body_slot": "full_body",
+      "attachment_mode": "animation_source",
+      "project_id": "hub-character-studio",
+      "directory_id": "dir-character-animations",
+      "tags": [
+        "默认动画",
+        "骨骼动画",
+        "walk",
+        "uefn-mannequin"
+      ],
+      "source": {
+        "kind": "managed",
+        "format": "GLB",
+        "original_path": null,
+        "managed_path": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-animations\\asset_895e88820d5e4657\\uefn_walk.glb",
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_895e88820d5e4657/uefn_walk.glb",
+        "size_bytes": 987628,
+        "sha256": "ea78b84cc0193baa75d2e961eac3016edbf19206008f2cdddd69b88520b95df0",
+        "hash_state": "verified",
+        "managed": true,
+        "read_only": false
+      },
+      "preview": {
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_895e88820d5e4657/uefn_walk.glb",
+        "thumbnail": null,
+        "strategy": "direct",
+        "browser_ready": true,
+        "requires_confirmation": false,
+        "reason": null
+      },
+      "skeleton": {
+        "profile_id": "uefn-mannequin",
+        "signature": null,
+        "rest_pose_signature": null,
+        "bone_count": null,
+        "has_skin": true
+      },
+      "animations": [
+        {
+          "name": "UEFN 基础行走",
+          "clip_index": 0,
+          "action": "walk",
+          "segment": "loop",
+          "loop": true
+        }
+      ],
+      "animation_count": 1,
+      "capabilities": {
+        "can_preview": true,
+        "has_skin": true,
+        "has_morph_targets": null,
+        "has_animation": null,
+        "can_export_glb": true,
+        "binding_modes": [
+          "free_transform",
+          "rigid_attachment",
+          "shared_skeleton",
+          "retargeted_skeleton"
+        ],
+        "has_skeletal_animation": true,
+        "animation_source": true
+      },
+      "technical": {},
+      "provenance": {
+        "source": "/Game/Riftfall/Animations/UEFN/Walk/M_Neutral_Walk_Loop_F",
+        "license_note": null,
+        "license_status": "unknown",
+        "commercial_use": "unknown",
+        "source_project": "E:\\XHub\\Riftfall\\Riftfall_Game\\Riftfall.uproject",
+        "exporter": "Unreal GLTFExporter 5.8",
+        "source_modified": false,
+        "usage_scope": "local_project"
+      },
+      "quality": {
+        "available": true,
+        "issues": [
+          "license_unverified",
+          "browser_inspection_pending"
+        ]
+      },
+      "availability": {
+        "state": "ready",
+        "reason": null,
+        "last_checked": "2026-07-28T15:49:34.885391+00:00"
+      },
+      "dependencies": [],
+      "legacy": null,
+      "created": "2026-07-28T15:49:34.885399+00:00",
+      "updated": "2026-07-28T15:50:22.362142+00:00"
+    },
+    {
+      "schema_version": 3,
+      "id": "asset_cf23c8c1c2d04c84",
+      "name": "uefn_run",
+      "display_name": "UEFN 基础跑步",
+      "asset_class": "animation",
+      "subtype": "skeletal_animation",
+      "body_slot": "full_body",
+      "attachment_mode": "animation_source",
+      "project_id": "hub-character-studio",
+      "directory_id": "dir-character-animations",
+      "tags": [
+        "默认动画",
+        "骨骼动画",
+        "run",
+        "uefn-mannequin"
+      ],
+      "source": {
+        "kind": "managed",
+        "format": "GLB",
+        "original_path": null,
+        "managed_path": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-animations\\asset_cf23c8c1c2d04c84\\uefn_run.glb",
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_cf23c8c1c2d04c84/uefn_run.glb",
+        "size_bytes": 828572,
+        "sha256": "7331b7b110a36a87e7f9e9f08db5ce208598c46f2431b8ffa7a7ccfd36cc3abc",
+        "hash_state": "verified",
+        "managed": true,
+        "read_only": false
+      },
+      "preview": {
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_cf23c8c1c2d04c84/uefn_run.glb",
+        "thumbnail": null,
+        "strategy": "direct",
+        "browser_ready": true,
+        "requires_confirmation": false,
+        "reason": null
+      },
+      "skeleton": {
+        "profile_id": "uefn-mannequin",
+        "signature": null,
+        "rest_pose_signature": null,
+        "bone_count": null,
+        "has_skin": true
+      },
+      "animations": [
+        {
+          "name": "UEFN 基础跑步",
+          "clip_index": 0,
+          "action": "run",
+          "segment": "loop",
+          "loop": true
+        }
+      ],
+      "animation_count": 1,
+      "capabilities": {
+        "can_preview": true,
+        "has_skin": true,
+        "has_morph_targets": null,
+        "has_animation": null,
+        "can_export_glb": true,
+        "binding_modes": [
+          "free_transform",
+          "rigid_attachment",
+          "shared_skeleton",
+          "retargeted_skeleton"
+        ],
+        "has_skeletal_animation": true,
+        "animation_source": true
+      },
+      "technical": {},
+      "provenance": {
+        "source": "/Game/Riftfall/Animations/UEFN/Run/M_Neutral_Run_Loop_F",
+        "license_note": null,
+        "license_status": "unknown",
+        "commercial_use": "unknown",
+        "source_project": "E:\\XHub\\Riftfall\\Riftfall_Game\\Riftfall.uproject",
+        "exporter": "Unreal GLTFExporter 5.8",
+        "source_modified": false,
+        "usage_scope": "local_project"
+      },
+      "quality": {
+        "available": true,
+        "issues": [
+          "license_unverified",
+          "browser_inspection_pending"
+        ]
+      },
+      "availability": {
+        "state": "ready",
+        "reason": null,
+        "last_checked": "2026-07-28T15:49:35.236601+00:00"
+      },
+      "dependencies": [],
+      "legacy": null,
+      "created": "2026-07-28T15:49:35.236610+00:00",
+      "updated": "2026-07-28T15:50:22.362147+00:00"
+    },
+    {
+      "schema_version": 3,
+      "id": "asset_ab48e05a43d9468c",
+      "name": "uefn_jump",
+      "display_name": "UEFN 基础跳跃",
+      "asset_class": "animation",
+      "subtype": "skeletal_animation",
+      "body_slot": "full_body",
+      "attachment_mode": "animation_source",
+      "project_id": "hub-character-studio",
+      "directory_id": "dir-character-animations",
+      "tags": [
+        "默认动画",
+        "骨骼动画",
+        "jump",
+        "uefn-mannequin"
+      ],
+      "source": {
+        "kind": "managed",
+        "format": "GLB",
+        "original_path": null,
+        "managed_path": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-animations\\asset_ab48e05a43d9468c\\uefn_jump.glb",
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_ab48e05a43d9468c/uefn_jump.glb",
+        "size_bytes": 917148,
+        "sha256": "800dfed7aa515fce74d2c73e389635b66bbd42d2892425e320a06c339a994ba7",
+        "hash_state": "verified",
+        "managed": true,
+        "read_only": false
+      },
+      "preview": {
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-animations/asset_ab48e05a43d9468c/uefn_jump.glb",
+        "thumbnail": null,
+        "strategy": "direct",
+        "browser_ready": true,
+        "requires_confirmation": false,
+        "reason": null
+      },
+      "skeleton": {
+        "profile_id": "uefn-mannequin",
+        "signature": null,
+        "rest_pose_signature": null,
+        "bone_count": null,
+        "has_skin": true
+      },
+      "animations": [
+        {
+          "name": "UEFN 基础跳跃",
+          "clip_index": 0,
+          "action": "jump",
+          "segment": "air_loop",
+          "loop": true
+        }
+      ],
+      "animation_count": 1,
+      "capabilities": {
+        "can_preview": true,
+        "has_skin": true,
+        "has_morph_targets": null,
+        "has_animation": null,
+        "can_export_glb": true,
+        "binding_modes": [
+          "free_transform",
+          "rigid_attachment",
+          "shared_skeleton",
+          "retargeted_skeleton"
+        ],
+        "has_skeletal_animation": true,
+        "animation_source": true
+      },
+      "technical": {},
+      "provenance": {
+        "source": "/Game/Riftfall/Animations/UEFN/Jump/M_Neutral_Jump_Loop_Fall",
+        "license_note": null,
+        "license_status": "unknown",
+        "commercial_use": "unknown",
+        "source_project": "E:\\XHub\\Riftfall\\Riftfall_Game\\Riftfall.uproject",
+        "exporter": "Unreal GLTFExporter 5.8",
+        "source_modified": false,
+        "usage_scope": "local_project"
+      },
+      "quality": {
+        "available": true,
+        "issues": [
+          "license_unverified",
+          "browser_inspection_pending"
+        ]
+      },
+      "availability": {
+        "state": "ready",
+        "reason": null,
+        "last_checked": "2026-07-28T15:49:35.608453+00:00"
+      },
+      "dependencies": [],
+      "legacy": null,
+      "created": "2026-07-28T15:49:35.608461+00:00",
+      "updated": "2026-07-28T15:50:22.362152+00:00"
+    },
+    {
+      "schema_version": 3,
+      "id": "asset_49ab36f4dfe648c3",
+      "name": "fbx-Clean",
+      "display_name": "fbx-Clean",
+      "asset_class": "character",
+      "subtype": "local_import",
+      "body_slot": "root",
+      "attachment_mode": "free_transform",
+      "project_id": "hub-character-studio",
+      "directory_id": "dir-character-characters",
+      "tags": [
+        "本地导入",
+        "character"
+      ],
+      "source": {
+        "kind": "managed",
+        "format": "FBX",
+        "original_path": null,
+        "managed_path": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-characters\\asset_49ab36f4dfe648c3\\fbx-Clean.fbx",
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-characters/asset_49ab36f4dfe648c3/fbx-Clean.fbx",
+        "size_bytes": 39875440,
+        "sha256": "c2262297f8f898687dd9dc9ac4868bf5ec49e870cfe858bfb5fba7d8eb519d99",
+        "hash_state": "verified",
+        "managed": true,
+        "read_only": false
+      },
+      "preview": {
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-characters/asset_49ab36f4dfe648c3/fbx-Clean.fbx",
+        "thumbnail": null,
+        "strategy": "browser_loader",
+        "browser_ready": true,
+        "requires_confirmation": false,
+        "reason": null
+      },
+      "skeleton": {
+        "profile_id": null,
+        "signature": null,
+        "rest_pose_signature": null,
+        "bone_count": null,
+        "has_skin": null
+      },
+      "animations": [],
+      "animation_count": 0,
+      "capabilities": {
+        "can_preview": true,
+        "has_skin": null,
+        "has_morph_targets": null,
+        "has_animation": null,
+        "can_export_glb": true,
+        "binding_modes": [
+          "free_transform",
+          "rigid_attachment",
+          "shared_skeleton",
+          "retargeted_skeleton"
+        ]
+      },
+      "technical": {},
+      "provenance": {
+        "source": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-characters\\asset_49ab36f4dfe648c3\\fbx-Clean.fbx",
+        "license_note": null,
+        "license_status": "unknown",
+        "commercial_use": "unknown"
+      },
+      "quality": {
+        "available": true,
+        "issues": [
+          "license_unverified",
+          "browser_inspection_pending"
+        ]
+      },
+      "availability": {
+        "state": "ready",
+        "reason": null,
+        "last_checked": "2026-07-28T16:19:22.529486+00:00"
+      },
+      "dependencies": [],
+      "legacy": null,
+      "created": "2026-07-28T16:19:22.529496+00:00",
+      "updated": "2026-07-28T16:19:22.529498+00:00"
+    },
+    {
+      "schema_version": 3,
+      "id": "asset_7ab7dfb45e684b0a",
+      "name": "base_basic_shaded",
+      "display_name": "base_basic_shaded",
+      "asset_class": "body_part",
+      "subtype": "local_import",
+      "body_slot": "head",
+      "attachment_mode": "skinned_mesh",
+      "project_id": "hub-character-studio",
+      "directory_id": "dir-hub-character-studio-root",
+      "tags": [
+        "本地导入",
+        "body_part"
+      ],
+      "source": {
+        "kind": "managed",
+        "format": "FBX",
+        "original_path": null,
+        "managed_path": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-hub-character-studio-root\\asset_7ab7dfb45e684b0a\\base_basic_shaded.fbx",
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-hub-character-studio-root/asset_7ab7dfb45e684b0a/base_basic_shaded.fbx",
+        "size_bytes": 29931052,
+        "sha256": "b36d06b3967448b9468f2bc52e886b822a1225efd957dac7999d31bf6bb33e78",
+        "hash_state": "verified",
+        "managed": true,
+        "read_only": false
+      },
+      "preview": {
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-hub-character-studio-root/asset_7ab7dfb45e684b0a/base_basic_shaded.fbx",
+        "thumbnail": null,
+        "strategy": "browser_loader",
+        "browser_ready": true,
+        "requires_confirmation": false,
+        "reason": null
+      },
+      "skeleton": {
+        "profile_id": null,
+        "signature": null,
+        "rest_pose_signature": null,
+        "bone_count": null,
+        "has_skin": null
+      },
+      "animations": [],
+      "animation_count": 0,
+      "capabilities": {
+        "can_preview": true,
+        "has_skin": null,
+        "has_morph_targets": null,
+        "has_animation": null,
+        "can_export_glb": true,
+        "binding_modes": [
+          "free_transform",
+          "rigid_attachment",
+          "shared_skeleton",
+          "retargeted_skeleton"
+        ]
+      },
+      "technical": {},
+      "provenance": {
+        "source": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-hub-character-studio-root\\asset_7ab7dfb45e684b0a\\base_basic_shaded.fbx",
+        "license_note": null,
+        "license_status": "unknown",
+        "commercial_use": "unknown"
+      },
+      "quality": {
+        "available": true,
+        "issues": [
+          "license_unverified",
+          "browser_inspection_pending"
+        ]
+      },
+      "availability": {
+        "state": "ready",
+        "reason": null,
+        "last_checked": "2026-07-28T17:23:38.110700+00:00"
+      },
+      "dependencies": [],
+      "legacy": null,
+      "created": "2026-07-28T17:23:38.110708+00:00",
+      "updated": "2026-07-28T17:23:38.110709+00:00"
+    },
+    {
+      "schema_version": 3,
+      "id": "asset_d4081f2d90034783",
+      "name": "base_basic_shaded_480k",
+      "display_name": "base_basic_shaded_480k",
+      "asset_class": "body_part",
+      "subtype": "local_import",
+      "body_slot": "head",
+      "attachment_mode": "skinned_mesh",
+      "project_id": "hub-character-studio",
+      "directory_id": "dir-character-body-parts",
+      "tags": [
+        "本地导入",
+        "body_part"
+      ],
+      "source": {
+        "kind": "managed",
+        "format": "FBX",
+        "original_path": null,
+        "managed_path": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-body-parts\\asset_d4081f2d90034783\\base_basic_shaded_480k.fbx",
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-body-parts/asset_d4081f2d90034783/base_basic_shaded_480k.fbx",
+        "size_bytes": 29153132,
+        "sha256": "2dbb4ad18e1c50c074ed5c4e70632b39c686a2f4cf6de706290f6d4d4c7a9f5f",
+        "hash_state": "verified",
+        "managed": true,
+        "read_only": false
+      },
+      "preview": {
+        "runtime_file": "/CharacterStudio/library/projects/hub-character-studio/dir-character-body-parts/asset_d4081f2d90034783/base_basic_shaded_480k.fbx",
+        "thumbnail": null,
+        "strategy": "browser_loader",
+        "browser_ready": true,
+        "requires_confirmation": false,
+        "reason": null
+      },
+      "skeleton": {
+        "profile_id": null,
+        "signature": null,
+        "rest_pose_signature": null,
+        "bone_count": null,
+        "has_skin": null
+      },
+      "animations": [],
+      "animation_count": 0,
+      "capabilities": {
+        "can_preview": true,
+        "has_skin": null,
+        "has_morph_targets": null,
+        "has_animation": null,
+        "can_export_glb": true,
+        "binding_modes": [
+          "free_transform",
+          "rigid_attachment",
+          "shared_skeleton",
+          "retargeted_skeleton"
+        ]
+      },
+      "technical": {},
+      "provenance": {
+        "source": "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio\\dir-character-body-parts\\asset_d4081f2d90034783\\base_basic_shaded_480k.fbx",
+        "license_note": null,
+        "license_status": "unknown",
+        "commercial_use": "unknown"
+      },
+      "quality": {
+        "available": true,
+        "issues": [
+          "license_unverified",
+          "browser_inspection_pending"
+        ]
+      },
+      "availability": {
+        "state": "ready",
+        "reason": null,
+        "last_checked": "2026-07-28T17:32:20.455421+00:00"
+      },
+      "dependencies": [],
+      "legacy": null,
+      "created": "2026-07-28T17:32:20.455440+00:00",
+      "updated": "2026-07-28T17:32:20.455441+00:00"
+    }
+  ]
+}

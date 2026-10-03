@@ -1,0 +1,143 @@
+{
+  "schema_version": 2,
+  "three_revision": "r185",
+  "generated_at": "2026-07-31T00:00:00.000Z",
+  "profiles": {
+    "ue5-mannequin-simple": {
+      "revision": 3,
+      "baseline_asset_id": "asset_0e94ed1a6dee4c7c",
+      "baseline_sha256": "315b05cc6ebd98d0d2865365ee794029225b43b66cbc26114ad47cfb3f441fd9",
+      "bone_count": 89,
+      "hierarchy_signature": "fnv1a32:cca14f40",
+      "rest_pose_signature": "fnv1a32:65677a9e",
+      "required_bones": [
+        "root",
+        "pelvis",
+        "head",
+        "clavicle_l",
+        "upperarm_l",
+        "lowerarm_l",
+        "hand_l",
+        "clavicle_r",
+        "upperarm_r",
+        "lowerarm_r",
+        "hand_r",
+        "thigh_l",
+        "thigh_r"
+      ],
+      "poses": {
+        "source": {
+          "mode": "captured_bind_pose"
+        },
+        "a": {
+          "mode": "local_overrides",
+          "bones": {
+            "upperarm_l": {
+              "quaternion": [0.019947851, 0.020190157, 0.391730756, -0.919642031]
+            },
+            "lowerarm_l": {
+              "quaternion": [0, 0.333632648, 0, -0.942703187]
+            },
+            "upperarm_r": {
+              "quaternion": [0.019947851, 0.020190157, 0.391730756, -0.919642031]
+            },
+            "lowerarm_r": {
+              "quaternion": [0, 0.333632648, 0, -0.942703187]
+            }
+          }
+        },
+        "t": {
+          "mode": "local_overrides",
+          "bones": {
+            "upperarm_l": {
+              "quaternion": [0.022589276, 0.005560387, -0.996785184, 0.076668791]
+            },
+            "lowerarm_l": {
+              "quaternion": [0, 0.000000001, -0.000000001, 1]
+            },
+            "upperarm_r": {
+              "quaternion": [0.022589278, 0.005560396, -0.996785188, 0.076668739]
+            },
+            "lowerarm_r": {
+              "quaternion": [0.000000001, 0.000000018, -0.000000018, 1]
+            },
+            "hand_l": {
+              "quaternion": [-0.813183463, -0.075860976, -0.189942569, -0.544884931]
+            },
+            "hand_r": {
+              "quaternion": [0.813164298, 0.075943542, 0.190033877, 0.544870193]
+            }
+          }
+        }
+      }
+    },
+    "uefn-mannequin": {
+      "revision": 3,
+      "baseline_asset_id": "asset_167167ca63af4e35",
+      "baseline_sha256": "14d5a137e119b101b5a1d4453b0d8b13bd873cc79c229e2c22c40df15068d8ac",
+      "bone_count": 88,
+      "hierarchy_signature": "fnv1a32:49218d61",
+      "rest_pose_signature": "fnv1a32:da44924a",
+      "required_bones": [
+        "root",
+        "pelvis",
+        "head",
+        "clavicle_l",
+        "upperarm_l",
+        "lowerarm_l",
+        "hand_l",
+        "clavicle_r",
+        "upperarm_r",
+        "lowerarm_r",
+        "hand_r",
+        "thigh_l",
+        "thigh_r"
+      ],
+      "poses": {
+        "source": {
+          "mode": "captured_bind_pose"
+        },
+        "a": {
+          "mode": "local_overrides",
+          "bones": {
+            "upperarm_l": {
+              "quaternion": [-0.022615312, 0.008833247, 0.323447257, -0.945934772]
+            },
+            "lowerarm_l": {
+              "quaternion": [-0.039058771, 0.245262161, 0.009889994, -0.968619168]
+            },
+            "upperarm_r": {
+              "quaternion": [-0.022615312, 0.008833247, 0.323447257, -0.945934772]
+            },
+            "lowerarm_r": {
+              "quaternion": [-0.039058771, 0.245262161, 0.009889995, -0.968619168]
+            }
+          }
+        },
+        "t": {
+          "mode": "local_overrides",
+          "bones": {
+            "upperarm_l": {
+              "quaternion": [0.02384512, 0.040059126, -0.99831633, 0.034513493]
+            },
+            "lowerarm_l": {
+              "quaternion": [0.040291434, -0.000000008, 0, 0.99918797]
+            },
+            "upperarm_r": {
+              "quaternion": [0.023845089, 0.040059177, -0.998316324, 0.034513631]
+            },
+            "lowerarm_r": {
+              "quaternion": [0.040291522, -0.000000235, 0.000000288, 0.999187967]
+            },
+            "hand_l": {
+              "quaternion": [-0.650054998, 0.286148475, -0.03968968, -0.702831615]
+            },
+            "hand_r": {
+              "quaternion": [0.6500488, -0.286178788, 0.039654385, 0.702826998]
+            }
+          }
+        }
+      }
+    }
+  }
+}

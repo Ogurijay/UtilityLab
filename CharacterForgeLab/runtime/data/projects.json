@@ -1,0 +1,17 @@
+{
+    "schema_version":  1,
+    "updated":  "2026-07-29T09:32:55.8746759+00:00",
+    "items":  [
+                  {
+                      "id":  "hub-character-studio",
+                      "name":  "CharacterForgeLab",
+                      "type":  "hub",
+                      "root_path":  "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab",
+                      "managed_root":  "D:\\Administartor\\Study\\WorkStation\\UtilityLab\\CharacterForgeLab\\runtime\\library\\projects\\hub-character-studio",
+                      "registered":  true,
+                      "read_only_source":  false,
+                      "created":  "2026-07-28T10:00:51.219259+00:00",
+                      "updated":  "2026-07-28T10:00:51.219275+00:00"
+                  }
+              ]
+}

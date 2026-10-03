@@ -1,0 +1,600 @@
+{
+  "schema_version": 1,
+  "updated": "2026-07-28T10:22:49.626510+00:00",
+  "items": [
+    {
+      "id": "ue5-manny-full",
+      "name": "UE5 Manny 完整骨架",
+      "family": "ue5-mannequin",
+      "expected_bones": 161,
+      "aliases": {
+        "root": [
+          "root",
+          "rootmotion",
+          "root_motion"
+        ],
+        "pelvis": [
+          "pelvis",
+          "hips",
+          "hip",
+          "bip001_pelvis"
+        ],
+        "spine_01": [
+          "spine_01",
+          "spine1",
+          "spine"
+        ],
+        "spine_02": [
+          "spine_02",
+          "spine2"
+        ],
+        "spine_03": [
+          "spine_03",
+          "spine3",
+          "chest"
+        ],
+        "neck_01": [
+          "neck_01",
+          "neck",
+          "neck1"
+        ],
+        "head": [
+          "head",
+          "head_01"
+        ],
+        "clavicle_l": [
+          "clavicle_l",
+          "leftshoulder",
+          "shoulder_l"
+        ],
+        "upperarm_l": [
+          "upperarm_l",
+          "leftarm",
+          "arm_l"
+        ],
+        "lowerarm_l": [
+          "lowerarm_l",
+          "leftforearm",
+          "forearm_l"
+        ],
+        "hand_l": [
+          "hand_l",
+          "lefthand"
+        ],
+        "clavicle_r": [
+          "clavicle_r",
+          "rightshoulder",
+          "shoulder_r"
+        ],
+        "upperarm_r": [
+          "upperarm_r",
+          "rightarm",
+          "arm_r"
+        ],
+        "lowerarm_r": [
+          "lowerarm_r",
+          "rightforearm",
+          "forearm_r"
+        ],
+        "hand_r": [
+          "hand_r",
+          "righthand"
+        ],
+        "thigh_l": [
+          "thigh_l",
+          "leftupleg",
+          "upleg_l"
+        ],
+        "calf_l": [
+          "calf_l",
+          "leftleg",
+          "leg_l"
+        ],
+        "foot_l": [
+          "foot_l",
+          "leftfoot"
+        ],
+        "ball_l": [
+          "ball_l",
+          "lefttoe",
+          "toe_l"
+        ],
+        "thigh_r": [
+          "thigh_r",
+          "rightupleg",
+          "upleg_r"
+        ],
+        "calf_r": [
+          "calf_r",
+          "rightleg",
+          "leg_r"
+        ],
+        "foot_r": [
+          "foot_r",
+          "rightfoot"
+        ],
+        "ball_r": [
+          "ball_r",
+          "righttoe",
+          "toe_r"
+        ]
+      }
+    },
+    {
+      "id": "ue5-quinn-full",
+      "name": "UE5 Quinn 完整骨架",
+      "family": "ue5-mannequin",
+      "expected_bones": 161,
+      "aliases": {
+        "root": [
+          "root",
+          "rootmotion",
+          "root_motion"
+        ],
+        "pelvis": [
+          "pelvis",
+          "hips",
+          "hip",
+          "bip001_pelvis"
+        ],
+        "spine_01": [
+          "spine_01",
+          "spine1",
+          "spine"
+        ],
+        "spine_02": [
+          "spine_02",
+          "spine2"
+        ],
+        "spine_03": [
+          "spine_03",
+          "spine3",
+          "chest"
+        ],
+        "neck_01": [
+          "neck_01",
+          "neck",
+          "neck1"
+        ],
+        "head": [
+          "head",
+          "head_01"
+        ],
+        "clavicle_l": [
+          "clavicle_l",
+          "leftshoulder",
+          "shoulder_l"
+        ],
+        "upperarm_l": [
+          "upperarm_l",
+          "leftarm",
+          "arm_l"
+        ],
+        "lowerarm_l": [
+          "lowerarm_l",
+          "leftforearm",
+          "forearm_l"
+        ],
+        "hand_l": [
+          "hand_l",
+          "lefthand"
+        ],
+        "clavicle_r": [
+          "clavicle_r",
+          "rightshoulder",
+          "shoulder_r"
+        ],
+        "upperarm_r": [
+          "upperarm_r",
+          "rightarm",
+          "arm_r"
+        ],
+        "lowerarm_r": [
+          "lowerarm_r",
+          "rightforearm",
+          "forearm_r"
+        ],
+        "hand_r": [
+          "hand_r",
+          "righthand"
+        ],
+        "thigh_l": [
+          "thigh_l",
+          "leftupleg",
+          "upleg_l"
+        ],
+        "calf_l": [
+          "calf_l",
+          "leftleg",
+          "leg_l"
+        ],
+        "foot_l": [
+          "foot_l",
+          "leftfoot"
+        ],
+        "ball_l": [
+          "ball_l",
+          "lefttoe",
+          "toe_l"
+        ],
+        "thigh_r": [
+          "thigh_r",
+          "rightupleg",
+          "upleg_r"
+        ],
+        "calf_r": [
+          "calf_r",
+          "rightleg",
+          "leg_r"
+        ],
+        "foot_r": [
+          "foot_r",
+          "rightfoot"
+        ],
+        "ball_r": [
+          "ball_r",
+          "righttoe",
+          "toe_r"
+        ]
+      }
+    },
+    {
+      "id": "ue5-mannequin-simple",
+      "name": "UE5 Manny / Quinn Simple 骨架",
+      "family": "ue5-mannequin-simple",
+      "expected_bones": 89,
+      "aliases": {
+        "root": [
+          "root",
+          "rootmotion",
+          "root_motion"
+        ],
+        "pelvis": [
+          "pelvis",
+          "hips",
+          "hip",
+          "bip001_pelvis"
+        ],
+        "spine_01": [
+          "spine_01",
+          "spine1",
+          "spine"
+        ],
+        "spine_02": [
+          "spine_02",
+          "spine2"
+        ],
+        "spine_03": [
+          "spine_03",
+          "spine3",
+          "chest"
+        ],
+        "neck_01": [
+          "neck_01",
+          "neck",
+          "neck1"
+        ],
+        "head": [
+          "head",
+          "head_01"
+        ],
+        "clavicle_l": [
+          "clavicle_l",
+          "leftshoulder",
+          "shoulder_l"
+        ],
+        "upperarm_l": [
+          "upperarm_l",
+          "leftarm",
+          "arm_l"
+        ],
+        "lowerarm_l": [
+          "lowerarm_l",
+          "leftforearm",
+          "forearm_l"
+        ],
+        "hand_l": [
+          "hand_l",
+          "lefthand"
+        ],
+        "clavicle_r": [
+          "clavicle_r",
+          "rightshoulder",
+          "shoulder_r"
+        ],
+        "upperarm_r": [
+          "upperarm_r",
+          "rightarm",
+          "arm_r"
+        ],
+        "lowerarm_r": [
+          "lowerarm_r",
+          "rightforearm",
+          "forearm_r"
+        ],
+        "hand_r": [
+          "hand_r",
+          "righthand"
+        ],
+        "thigh_l": [
+          "thigh_l",
+          "leftupleg",
+          "upleg_l"
+        ],
+        "calf_l": [
+          "calf_l",
+          "leftleg",
+          "leg_l"
+        ],
+        "foot_l": [
+          "foot_l",
+          "leftfoot"
+        ],
+        "ball_l": [
+          "ball_l",
+          "lefttoe",
+          "toe_l"
+        ],
+        "thigh_r": [
+          "thigh_r",
+          "rightupleg",
+          "upleg_r"
+        ],
+        "calf_r": [
+          "calf_r",
+          "rightleg",
+          "leg_r"
+        ],
+        "foot_r": [
+          "foot_r",
+          "rightfoot"
+        ],
+        "ball_r": [
+          "ball_r",
+          "righttoe",
+          "toe_r"
+        ]
+      }
+    },
+    {
+      "id": "uefn-mannequin",
+      "name": "UEFN Mannequin 骨架",
+      "family": "uefn-mannequin",
+      "expected_bones": 88,
+      "aliases": {
+        "root": [
+          "root",
+          "rootmotion",
+          "root_motion"
+        ],
+        "pelvis": [
+          "pelvis",
+          "hips",
+          "hip",
+          "bip001_pelvis"
+        ],
+        "spine_01": [
+          "spine_01",
+          "spine1",
+          "spine"
+        ],
+        "spine_02": [
+          "spine_02",
+          "spine2"
+        ],
+        "spine_03": [
+          "spine_03",
+          "spine3",
+          "chest"
+        ],
+        "neck_01": [
+          "neck_01",
+          "neck",
+          "neck1"
+        ],
+        "head": [
+          "head",
+          "head_01"
+        ],
+        "clavicle_l": [
+          "clavicle_l",
+          "leftshoulder",
+          "shoulder_l"
+        ],
+        "upperarm_l": [
+          "upperarm_l",
+          "leftarm",
+          "arm_l"
+        ],
+        "lowerarm_l": [
+          "lowerarm_l",
+          "leftforearm",
+          "forearm_l"
+        ],
+        "hand_l": [
+          "hand_l",
+          "lefthand"
+        ],
+        "clavicle_r": [
+          "clavicle_r",
+          "rightshoulder",
+          "shoulder_r"
+        ],
+        "upperarm_r": [
+          "upperarm_r",
+          "rightarm",
+          "arm_r"
+        ],
+        "lowerarm_r": [
+          "lowerarm_r",
+          "rightforearm",
+          "forearm_r"
+        ],
+        "hand_r": [
+          "hand_r",
+          "righthand"
+        ],
+        "thigh_l": [
+          "thigh_l",
+          "leftupleg",
+          "upleg_l"
+        ],
+        "calf_l": [
+          "calf_l",
+          "leftleg",
+          "leg_l"
+        ],
+        "foot_l": [
+          "foot_l",
+          "leftfoot"
+        ],
+        "ball_l": [
+          "ball_l",
+          "lefttoe",
+          "toe_l"
+        ],
+        "thigh_r": [
+          "thigh_r",
+          "rightupleg",
+          "upleg_r"
+        ],
+        "calf_r": [
+          "calf_r",
+          "rightleg",
+          "leg_r"
+        ],
+        "foot_r": [
+          "foot_r",
+          "rightfoot"
+        ],
+        "ball_r": [
+          "ball_r",
+          "righttoe",
+          "toe_r"
+        ]
+      },
+      "retarget_to": [
+        "ue5-manny-full",
+        "ue5-quinn-full"
+      ]
+    },
+    {
+      "id": "generic-humanoid",
+      "name": "通用人形骨架",
+      "family": "humanoid",
+      "expected_bones": null,
+      "aliases": {
+        "root": [
+          "root",
+          "rootmotion",
+          "root_motion"
+        ],
+        "pelvis": [
+          "pelvis",
+          "hips",
+          "hip",
+          "bip001_pelvis"
+        ],
+        "spine_01": [
+          "spine_01",
+          "spine1",
+          "spine"
+        ],
+        "spine_02": [
+          "spine_02",
+          "spine2"
+        ],
+        "spine_03": [
+          "spine_03",
+          "spine3",
+          "chest"
+        ],
+        "neck_01": [
+          "neck_01",
+          "neck",
+          "neck1"
+        ],
+        "head": [
+          "head",
+          "head_01"
+        ],
+        "clavicle_l": [
+          "clavicle_l",
+          "leftshoulder",
+          "shoulder_l"
+        ],
+        "upperarm_l": [
+          "upperarm_l",
+          "leftarm",
+          "arm_l"
+        ],
+        "lowerarm_l": [
+          "lowerarm_l",
+          "leftforearm",
+          "forearm_l"
+        ],
+        "hand_l": [
+          "hand_l",
+          "lefthand"
+        ],
+        "clavicle_r": [
+          "clavicle_r",
+          "rightshoulder",
+          "shoulder_r"
+        ],
+        "upperarm_r": [
+          "upperarm_r",
+          "rightarm",
+          "arm_r"
+        ],
+        "lowerarm_r": [
+          "lowerarm_r",
+          "rightforearm",
+          "forearm_r"
+        ],
+        "hand_r": [
+          "hand_r",
+          "righthand"
+        ],
+        "thigh_l": [
+          "thigh_l",
+          "leftupleg",
+          "upleg_l"
+        ],
+        "calf_l": [
+          "calf_l",
+          "leftleg",
+          "leg_l"
+        ],
+        "foot_l": [
+          "foot_l",
+          "leftfoot"
+        ],
+        "ball_l": [
+          "ball_l",
+          "lefttoe",
+          "toe_l"
+        ],
+        "thigh_r": [
+          "thigh_r",
+          "rightupleg",
+          "upleg_r"
+        ],
+        "calf_r": [
+          "calf_r",
+          "rightleg",
+          "leg_r"
+        ],
+        "foot_r": [
+          "foot_r",
+          "rightfoot"
+        ],
+        "ball_r": [
+          "ball_r",
+          "righttoe",
+          "toe_r"
+        ]
+      }
+    }
+  ]
+}
